@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: "Skuld",
+  siteUrl: "https://distracted-bassi-765380.netlify.app/",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
