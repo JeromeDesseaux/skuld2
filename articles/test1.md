@@ -2,7 +2,7 @@
 title: My First Article
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 author: Jérôme Desseaux
-image: /uploads/developer.svg
+image: /uploads/wallhaven-eyg96o.jpg
 date: 2020-01-07T17:43:37.669Z
 content: >-
   This is probably the biggest fundamental difference between Node and Deno.
