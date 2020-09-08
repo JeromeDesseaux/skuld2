@@ -4,25 +4,53 @@
 
     <div id="presentation" class="container">
       <div id="presentation-content" class="body-text">
-      <g-image
-        alt="Example image"
-        src="~/assets/images/developer.svg"
-        style="max-height: 200px; width:auto;"
-      />
-        <h1 class="text-uppercase text-thin">Jérôme Desseaux | Développeur Node.js, Python et Go freelance</h1>
+        <g-image
+          alt="Example image"
+          src="~/assets/images/developer.svg"
+          style="max-height: 200px; width: auto"
+        />
+        <h1 class="text-uppercase text-thin">
+          Jérôme Desseaux | Développeur Node.js, Python et Go freelance
+        </h1>
         <!-- <h2 class="text-thin color-secondary">avec SKULD</h2> -->
         <p>
-          Ingénieur de formation et passionné par mon métier, j'accompagne depuis 2013 les entreprises dans leurs projets numériques. Je travaille principalement sur tout ce qui touche de près ou de loin aux données et au développement backend (avec un peu de front quand il faut) :
-          <ul>
-              <li>Architecture et Modélisation</li>
-              <li><b class="underline">Node.js</b> - <b class="underline">Express</b>, Nest, avec <b class="underline">Vue.js</b> ou React côté frontend (je ne suis pas développeur frontend mais je me débrouille) le tout saupoudré de <b class="underline">TypeScript</b></li>
-              <li><b class="underline">Python</b> - <b class="underline">Django</b>, Flask, FastAPI, BeautifulSoup, SQLAlchemy ... Bref, un peu de tout quoi.</li>
-              <li><b class="underline">Go</b> (ou Golang) - Pour des API et microservices ultra-rapides.</li>
-              <li><b class="underline">Data</b> - Scraping et machine-learning.</li>
-              <li>Côté DevOps j'utilise <b class="underline">Docker</b> et <b class="underline">AWS</b> le tout sur un système <b class="underline">Linux</b>.</li>
-            </ul>
+          Ingénieur de formation et passionné par mon métier, j'accompagne
+          depuis 2013 les entreprises dans leurs projets numériques. Je
+          travaille principalement sur tout ce qui touche de près ou de loin aux
+          données et au développement backend (avec un peu de front quand il
+          faut) :
         </p>
-        <p style="margin-bottom: 20px;">Côté organisation, mes disponibilités sont accessibles sur mon profil LinkedIn. Tu trouveras tous les liens vers les différents moyens de me contacter en pied de page. Enfin, sache que je n'accepte que les missions en télétravail.</p>
+
+        <ul>
+          <li>Architecture et Modélisation</li>
+          <li>
+            <b class="underline">Node.js</b> - <b class="underline">Express</b>,
+            Nest, avec <b class="underline">Vue.js</b> ou React côté frontend
+            (je ne suis pas développeur frontend mais je me débrouille) le tout
+            saupoudré de <b class="underline">TypeScript</b>
+          </li>
+          <li>
+            <b class="underline">Python</b> - <b class="underline">Django</b>,
+            Flask, FastAPI, BeautifulSoup, SQLAlchemy ... Bref, un peu de tout
+            quoi.
+          </li>
+          <li>
+            <b class="underline">Go</b> (ou Golang) - Pour des API et
+            microservices ultra-rapides.
+          </li>
+          <li><b class="underline">Data</b> - Scraping et machine-learning.</li>
+          <li>
+            Côté DevOps j'utilise <b class="underline">Docker</b> et
+            <b class="underline">AWS</b> le tout sur un système
+            <b class="underline">Linux</b>.
+          </li>
+        </ul>
+        <p style="margin-bottom: 20px">
+          Côté organisation, mes disponibilités sont accessibles sur mon profil
+          LinkedIn. Tu trouveras tous les liens vers les différents moyens de me
+          contacter en pied de page. Enfin, sache que je n'accepte que les
+          missions en télétravail.
+        </p>
         <g-link to="/about/" class="btn btn-primary">Plus d'infos</g-link>
       </div>
     </div>
@@ -33,8 +61,13 @@
           <p class="body-text">
             Je suis ingénieur en Architecture des Systèmes d'Information (un peu
             verbeux, non?) - En bref, je conçois, modélise et teste des
-            applications numériques. Je vois mon métier comme une passion et transmettre mes connaissances comme un devoir.
-            Vous trouverez sur ce site mon blog dans lequel j'essaie de relater mes dernières trouvailles ou pensées. Outre mon travail, j'apprécie passer du temps avec mes amis et ma famille. Je suis également défenseur de l'écologie et oeuvre au quotidien, aussi bien professionnellement qu'à titre privé, afin de réduire mon empreinte énergétique.
+            applications numériques. Je vois mon métier comme une passion et
+            transmettre mes connaissances comme un devoir. Vous trouverez sur ce
+            site mon blog dans lequel j'essaie de relater mes dernières
+            trouvailles ou pensées. Outre mon travail, j'apprécie passer du
+            temps avec mes amis et ma famille. Je suis également défenseur de
+            l'écologie et oeuvre au quotidien, aussi bien professionnellement
+            qu'à titre privé, afin de réduire mon empreinte énergétique.
           </p>
         </div>
         <div id="image">
@@ -152,8 +185,7 @@ export default {
   /* max-width: 00px; */
 }
 
-@media screen and (max-width: 1240px)
-{
+@media screen and (max-width: 1240px) {
   #who-am-i #description {
     min-width: 90%;
     justify-content: center;
@@ -172,7 +204,6 @@ export default {
     margin-right: auto;
     padding-bottom: 30px;
   }
-  
 }
 
 #who-am-i #description h1 {
