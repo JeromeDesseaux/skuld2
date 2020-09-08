@@ -16,7 +16,10 @@
         />
       </div>
 
-      <div v-html="$page.article.content" class="article__content"></div>
+      <div
+        v-html="$page.article.content"
+        class="article__content body-text"
+      ></div>
     </div>
   </Layout>
 </template>
@@ -64,6 +67,10 @@ export default {
 <style lang="scss" scoped>
 .article__container {
   margin: auto;
+  & h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
 }
 
 .article__summary {
@@ -81,6 +88,6 @@ export default {
 }
 
 .article__content {
-  font-size: 1.2rem;
+  //   font-size: 1.2rem;
 }
 </style>

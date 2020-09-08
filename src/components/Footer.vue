@@ -13,7 +13,6 @@ footer {
   margin: auto;
   left: 0;
   bottom: 0;
-  width: 100%;
   background-color: #162d40;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -23,7 +22,7 @@ footer {
 }
 
 .footer__container {
-  width: 100%;
+  //   width: 100%;
   display: flex;
   flex: 1;
   justify-content: space-between;

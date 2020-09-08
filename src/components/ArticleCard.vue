@@ -1,12 +1,7 @@
 <template>
   <a class="article__card" :href="article.node.path">
     <div class="article__img">
-      <g-image
-        alt="Example image"
-        :src="article.node.image"
-        height="200"
-        fit="inside"
-      />
+      <g-image alt="Example image" :src="article.node.image" />
     </div>
     <div class="article__content">
       <h3>{{ article.node.title }}</h3>
@@ -31,6 +26,8 @@ export default {
   margin: 20px;
   text-decoration: none;
   color: black;
+  max-width: 45%;
+  min-width: 300px;
   border-radius: 7px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s ease 0s;
@@ -54,5 +51,9 @@ export default {
 
 .article__content {
   padding: 20px;
+  & h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
 }
 </style>

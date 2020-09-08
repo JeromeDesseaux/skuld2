@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "Skuld",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -31,9 +31,23 @@ module.exports = {
         publicPath: `/admin`,
       },
     },
-    // {
-    //   use: `gridsome-plugin-netlify-cms-paths`,
-    //   options: { contentTypes: ["Article"] },
-    // },
+    {
+      use: "@gridsome/plugin-sitemap",
+      options: {
+        exclude: ["/admin"],
+        // config: {
+        //   '/articles/*': {
+        //     changefreq: 'weekly',
+        //     priority: 0.5,
+        //     lastmod: '2020-02-19',
+        //   },
+        //   '/about': {
+        //     changefreq: 'monthly',
+        //     priority: 0.7,
+        //     lastmod: '2020-05-12',
+        //   }
+        // }
+      },
+    },
   ],
 };

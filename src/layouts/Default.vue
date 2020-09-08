@@ -12,6 +12,9 @@
         </strong>
         <nav class="nav">
           <g-link class="nav__link" to="/">Accueil</g-link>
+          <g-link class="nav__link" active-class="active__link" to="/articles/"
+            >Blog</g-link
+          >
           <g-link class="nav__link" to="/about/">A-propos</g-link>
         </nav>
       </div>
@@ -45,13 +48,6 @@ query {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-}
-.layout {
-  /* max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px; */
-  /* border-top: 8px solid var(--bright-blue) */
 }
 
 .header-container {

@@ -7,6 +7,15 @@ html {
   min-height: 100%;
 }
 
+.underline {
+  color: $secondary;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,9 +36,12 @@ h6 {
   color: #0b101d;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 1.5rem;
 }
 
 .btn {
+  //   margin-top: 20px;
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
@@ -97,6 +109,7 @@ nav a {
   }
 }
 
-nav a.active--exact {
+nav a.active--exact,
+a.active__link {
   color: $secondary;
 }
