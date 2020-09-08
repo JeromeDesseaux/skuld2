@@ -5,8 +5,8 @@
         <strong>
           <g-image
             alt="Example image"
-            src="~/assets/images/logo.png"
-            height="50"
+            src="~/assets/images/skuld_illustration_sansfond.png"
+            height="80"
             fit="inside"
           />
         </strong>

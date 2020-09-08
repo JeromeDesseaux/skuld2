@@ -9,7 +9,7 @@
         src="~/assets/images/developer.svg"
         style="max-height: 200px; width:auto;"
       />
-        <h1 class="text-uppercase text-thin">Développeur Node.js, Python et Go freelance | SKULD</h1>
+        <h1 class="text-uppercase text-thin">Jérôme Desseaux | Développeur Node.js, Python et Go freelance</h1>
         <!-- <h2 class="text-thin color-secondary">avec SKULD</h2> -->
         <p>
           Ingénieur de formation et passionné par mon métier, j'accompagne depuis 2013 les entreprises dans leurs projets numériques. Je travaille principalement sur tout ce qui touche de près ou de loin aux données et au développement backend (avec un peu de front quand il faut) :
@@ -29,12 +29,12 @@
     <Wave background-color="#234356">
       <div id="who-am-i">
         <div id="description" class="column">
-          <h2 class="text-uppercase text-thin" id="author">Jérôme Desseaux</h2>
+          <h2 class="text-uppercase text-thin" id="author">Qui suis-je ?</h2>
           <p class="body-text">
             Je suis ingénieur en Architecture des Systèmes d'Information (un peu
             verbeux, non?) - En bref, je conçois, modélise et teste des
             applications numériques. Je vois mon métier comme une passion et transmettre mes connaissances comme un devoir.
-            Vous trouverez sur ce site mon blog dans lequel j'essaie de relater mes dernières trouvailles ou pensées.
+            Vous trouverez sur ce site mon blog dans lequel j'essaie de relater mes dernières trouvailles ou pensées. Outre mon travail, j'apprécie passer du temps avec mes amis et ma famille. Je suis également défenseur de l'écologie et oeuvre au quotidien, aussi bien professionnellement qu'à titre privé, afin de réduire mon empreinte énergétique.
           </p>
         </div>
         <div id="image">
