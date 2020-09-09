@@ -1,7 +1,7 @@
 <template>
   <a class="article__card" :href="article.node.path">
     <div class="article__img">
-      <g-image alt="Example image" :src="article.node.image" />
+      <g-image alt="Example image" :src="article.node.image" height="100" />
     </div>
     <div class="article__content">
       <h3>{{ article.node.title }}</h3>

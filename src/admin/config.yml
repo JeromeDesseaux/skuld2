@@ -2,7 +2,7 @@ backend:
   name: github
   repo: JeromeDesseaux/skuld2
 
-media_folder: "static/uploads"
+media_folder: "src/assets/uploads"
 public_folder: "/uploads"
 
 collections:

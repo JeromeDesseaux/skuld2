@@ -32,6 +32,19 @@ module.exports = {
         publicPath: `/admin`,
       },
     },
+    // {
+    //   use: "gridsome-plugin-netlify-cms-paths",
+    //   options: {
+    //     contentTypes: ["Article"], // Same as declared above
+    //   },
+    // },
+    // {
+    //   use: "@gridsome/source-filesystem",
+    //   options: {
+    //     path: "src/admin/config.yml",
+    //     typeName: "Articles",
+    //   },
+    // },
     {
       use: "@gridsome/plugin-sitemap",
       options: {

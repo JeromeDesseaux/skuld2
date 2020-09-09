@@ -4,11 +4,11 @@
 
     <div id="presentation" class="container">
       <div id="presentation-content" class="body-text">
-        <g-image
+        <!-- <g-image
           alt="Example image"
           src="~/assets/images/developer.svg"
           style="max-height: 200px; width: auto"
-        />
+        /> -->
         <h1 class="text-uppercase text-thin">
           Jérôme Desseaux | Développeur Node.js, Python et Go freelance
         </h1>
